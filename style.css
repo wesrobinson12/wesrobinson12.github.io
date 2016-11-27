@@ -1,0 +1,64 @@
+html, main, h1, header, body, p, section, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: inherit;
+    vertical-align: inherit;
+
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: white;
+  min-width: 700px;
+  margin: 0;
+  height: 100%;
+}
+
+main {
+  background: #4caffd;
+  margin: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  height: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'Varela Round', sans-serif;
+  margin: 20px 0 20px 50px;
+  color: white;
+}
+
+p {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+  margin: 50px 50px 60px 50px;
+  color: white;
+}
+
+.projects {
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  padding: 30px;
+  border-radius: 5px;
+  background: #a9a9a9;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 30px 50px;
+}
+
+a:hover {
+  background: #eee;
+  color: #4caffd;
+  cursor: pointer;
+}

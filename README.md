@@ -1,3 +1,3 @@
 # wesRobAndSin.github.io
 
-Wesley Robinson -- wesRobAndSin
+This will be my project directory for my github page.
