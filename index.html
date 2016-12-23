@@ -1,29 +1,211 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <title>Wesley Robinson</title>
-  </head>
+	<head>
+		<title>Wesley Robinson</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel='shortcut icon' href='./assets/portfolio.ico' type='image/x-icon'/ >
+		<script src="https://use.fontawesome.com/73169db8cb.js"></script>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="landing">
 
-  <body>
-    <main>
-      <header>
-        <h1>Wesley Robinson</h1>
-      </header>
-      <p>
-        I am an aspiring web developer based out of New York City,
-        currently enrolled in a prestigious bootcamp known as App
-        Academy.  It is an immersive, 1000-hour full stack web
-        development course with an acceptance rate of less than 3%.
-        My projected graduation is January 2017, but for now feel
-        free to check out some of the projects I have completed below!
-      </p>
-        <section class="projects">
-          <a href="https://wesrobinson12.github.io/projects-page/tic_tac_toe">Tic Tac Toe</a>
-          <a href="https://wesrobinson12.github.io/projects-page/towers_of_hanoi">Towers of Hanoi</a>
-        </section>
-    </main>
-  </body>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Wesley Robinson</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="#two">Projects</a></li>
+											<li><a href="#cta">Contact</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Wesley Robinson</h2>
+							<p>A software developer<br />
+							based out of New York City.</p>
+							<ul class="actions">
+								<li><a href="#two" class="button special">Projects</a></li>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<div class="profile-section">
+									<div class="profile-info">
+										<h2>About me</h2>
+										<p>I am a software developer with experience in Ruby, Ruby on Rails,
+											and PostgreSQL on the back end, and ReactJS with a Redux architectural
+											framework on the front end.  Formerly a trader, I love to solve problems
+											and uncover patterns .........</p>
+											<ul class="icons major">
+												<li> <a href="https://github.com/wesrobinson12"><i class="fa fa-github-alt" id="about-icon1"aria-hidden="true"></i></a></li>
+												<li><a href="https://www.linkedin.com/in/wesleyprobinson"><i class="fa fa-linkedin-square" id="about-icon2" aria-hidden="true"></i></a></li>
+												<li><a href="https://www.facebook.com/wes.robinson12"><i class="fa fa-facebook-official" id="about-icon3" aria-hidden="true"></i></a></li>
+											</ul>
+									</div>
+									<img src="images/Headshot.jpg" alt="profile image" class="profile-image"/>
+								</div>
+							</header>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image">
+								<a href="http://www.notokcupid.pw">
+									<img src="images/notokcupid.png" alt="" />
+								</a>
+							</div>
+							<div class="content">
+								<a href="http://www.notokcupid.pw" class="project-link">
+									<h2>NotOKCupid</h2>
+								</a>
+								<p>NotOKCupid is a full-stack web application inspired by OKCupid,
+									with a twist. NotOKCupid's matching algorithm matches users based
+									on their incompatibility, because sometimes the worst love matches
+									turn out to be the best. It utilizes Ruby on Rails on the backend,
+									a PostgreSQL database, and React.js with a Redux architectural
+									framework on the frontend.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image">
+								<a href="https://wesrobinson12.github.io/stick-tennis">
+									<img src="images/stick-tennis.gif" alt="" />
+								</a>
+							</div>
+							<div class="content">
+								<a href="https://wesrobinson12.github.io/stick-tennis" class="project-link">
+									<h2>Stick Tennis</h2>
+								</a>
+								<p>A clone of the classic Atari Pong game.  It uses jQuery to
+								manipulate elements on the page, while using the HTML Canvas element
+								to render the actual game play.  Use the up and down arrow keys to
+							 	to try to beat the computer AI!</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image">
+								<a href="https://github.com/wesrobinson12/QueryBuster">
+									<img src="images/QueryBuster.png" alt="" />
+								</a>
+							</div>
+							<div class="content">
+								<a href="https://github.com/wesrobinson12/QueryBuster" class="project-link">
+									<h2>Query Buster</h2>
+								</a>
+								<p>A lightweight ORM library that utilizes metaprogramming for back
+								end database management.  Comes equipped with a demo that is playable
+								in the terminal.  Feel free to clone on github and follow the instructions
+								to try it out!</p>
+							</div>
+						</section>
+					</section>
+
+				<!-- Three -->
+					<!-- <section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Accumsan mus tortor nunc aliquet</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-paper-plane-o">
+									<h3>Arcu accumsan</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-laptop">
+									<h3>Ac Augue Eget</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-code">
+									<h3>Mus Scelerisque</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-headphones">
+									<h3>Mauris Imperdiet</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-heart-o">
+									<h3>Aenean Primis</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-flag-o">
+									<h3>Tortor Ut</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+							</ul>
+						</div>
+					</section> -->
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Contact Me</h2>
+								<p>2600 Netherland Avenue <br />
+								Bronx, NY 10463 <br />
+							  wpr124@gmail.com <br />
+								(508)-801-5482</p>
+							</header>
+							<ul class="actions vertical">
+								<li><a href="mailto:wpr124@gmail.com" class="button fit special">Email</a></li>
+								<li><a href="assets/resume-wesley-robinson.pdf" class="button fit">Resume</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://github.com/wesrobinson12"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/wesleyprobinson"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+							<li><a href="mailto:wpr124@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Wesley Robinson</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>

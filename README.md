@@ -1,3 +1,3 @@
-# wesRobAndSin.github.io
+# Richard Kwan's Portfolio Page
 
-This will be my project directory for my github page.
+### [live](wesrobinson12.github.io)
