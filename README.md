@@ -1,3 +1,3 @@
 # Wesley Robinson's Portfolio Page
 
-### [live](https://www.wesleyrobinson.me)
+### [live](http://www.wesleyrobinson.me)
