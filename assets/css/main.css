@@ -3820,6 +3820,8 @@
 .profile-image {
 	height: 300px;
 	width: auto;
+	margin-left: 50px;
+	margin-top: 90px;
 }
 
 .profile-section {
